@@ -1,4 +1,4 @@
-# instagram-api
+# spotify-api
 
 > A Vue.js project
 
