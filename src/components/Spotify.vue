@@ -68,13 +68,14 @@ export default {
 .spotify{
   text-align: center;
 }
+
 .tracks {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     color: green;
     background-color: white;
     border: black;
-    margin-left: 30%;
 }
 
 h1,
@@ -100,7 +101,7 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     justify-content: center;
-    width: 500px;
+    width: 25%;
 }
 
 /* On mouse-over, add a deeper shadow */
